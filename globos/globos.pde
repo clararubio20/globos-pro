@@ -17,7 +17,10 @@ class Globo
 
   void dibujate()
   {
-      ellipse(x,y,100,100);
+      color c = color(random(255), random(255), random(255));
+      fill(c);
+      square(x,y,random(100));
+      strokeWeight(4);
   }
   
 }
@@ -27,7 +30,7 @@ ArrayList<Globo> globos;
 
 void setup()
 {
-  size(500,500);
+  size(700,500);
   globos = new ArrayList<Globo>();  
 }
 
