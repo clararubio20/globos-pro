@@ -19,14 +19,14 @@ class Globo
   {
       color c = color(random(255), random(255), random(255));
       fill(c);
-      square(x,y,random(100));
+      ellipse(x,y,100,50);
       strokeWeight(4);
   }
   
 }
 
 ArrayList<Globo> globos;
-
+//comentario
 
 void setup()
 {
