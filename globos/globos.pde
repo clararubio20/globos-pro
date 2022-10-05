@@ -17,7 +17,10 @@ class Globo
 
   void dibujate()
   {
+      color c = color(random(255), random(255), random(255));
+      fill(c);
       ellipse(x,y,100,50);
+      strokeWeight(4);
   }
   
 }
